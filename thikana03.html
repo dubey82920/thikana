@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           text-align: center;
+           background-image: url("103180.jpg");
+       }
+     
+       input#name,#pin,#age,#email,#password{
+           border-radius: 10px;
+           border-color: red;
+           width: 400px;
+       }
+    input#add
+    {
+        border-radius: 10px;
+           border-color: red;
+           width: 400px;
+           height: 1cm;
+    }
+    input#reg{
+        border-radius: 10px;
+           border-color: red;
+           width: 100px;
+            background-color: red;
+    }
+    </style>
+</head>
+<body >
+    <h1>Register Here</h1>
+    
+   <div class="main">
+       <div class="container">
+            <form id="register" method="post">
+                <label>Full Name:</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter your full name">
+                <br><br>
+                <label>Age:</label>
+                <br>
+                <input type="text" name="age" id="age" placeholder="Enter Age">
+                <br><br>
+                <label>Email Id:</label>
+                <br>
+                <input type="email" name="emai" id="email" placeholder="Enter your Email Id">
+                <br><br>
+                <label>Gender:</label>
+                <br>
+                <input type="radio" name="gender" id="male">
+                <span id="male">Male</span>
+                <input type="radio" name="gender" id="female">
+                <span id="female">Female</span>
+                <br><br>
+                <label>Address:</label>
+                <br>
+                <input type="text" name="add" id="add" placeholder="Write your Address">
+                <br><br>
+                <label>Pin Code:</label>
+                <br>
+                <input type="number" name="pin" id="pin" placeholder="Enter Pin Code">
+                <br><br>
+                <label>Usar Name:</label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="username for login">
+                <br><br>
+                <label>Password:</label>
+                <br>
+                <input type="text" name="password" id="password" placeholder="Keep Password safe" >
+                <br><br>
+                <label>User Type:</label>
+                <br>
+                <input type="radio" name="User Type" id="Owner">
+                <span id="Owner">Owner</span>
+                <input type="radio" name="User Type" id="Renter">
+                <span id="Renter">Renter</span>
+                <br><br>
+                <input type="submit" name="Register" id="reg" >
+                
+            </form>
+
+       </div>
+   </div>
+   
+</body>
+</html>
